@@ -98,23 +98,30 @@ button::after {
 	background-color: rgb(24, 147, 230);
 }
 
-.slice::before{
-    top: -50%;
-    left: -100%;
+.slice::before {
+	top: -50%;
+	left: -100%;
 }
 
-.slice::after{
-    bottom: -50%;
-    right:  -100%;
+.slice::after {
+	bottom: -50%;
+	right: -100%;
 }
 
-.slice:hover::before{
-    left:0;
-}
-.slice:hover::after{
-    right:0;
+.slice:hover::before {
+	left: 0;
 }
 
+.slice:hover::after {
+	right: 0;
+}
 
+// HMM
+.hmm {
+	border: none;
+	transition: 0.5s;
+}
 
-
+.hmm:hover{
+    box-shadow: 2px 3px 0 0 rgb(255,255,255,.8), inset 11px 6px 10px rgba(0,0,0,.2);
+}
